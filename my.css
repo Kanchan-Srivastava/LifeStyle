@@ -1,0 +1,59 @@
+body,
+html {
+   width: 100%;
+    height: 100%;
+}
+#banner_image{padding-top:75px; padding-bottom: 51px; text-align: center; color: #f8f8f8; margin-bottom: 20px; 
+
+background: url("img/intro-bg_1.jpg") no-repeat center center; background-size: cover;}
+#item_list{
+    padding-top: 50px;
+}
+
+#banner_content{position: relative; padding-top: 6%; padding-bottom: 6%;margin-top: 12%;
+ overflow:hidden;
+ margin-bottom: 12%; background-color: rgba(0, 0, 0, 0.7);
+ max-width:660px;}
+.container{width:92%; margin:auto; overflow:hidden;}
+
+#cameras:before, #watches:before, #shirts:before{
+    display: block; 
+    content: " "; 
+  
+  margin-top: -85px; 
+  
+  height: 85px; 
+    visibility: hidden;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:600;
+}
+.navbar-brand{
+    font-size:20px;
+}
+footer {
+    padding: 10px 0;
+    background-color: #000;
+   color:#fff;
+    font-size:14px;
+    bottom:0;
+    width: 100%;
+}
+
+ .caption:hover{
+  
+
+  color:black; padding:0px 10px 10px; font-weight: bold; font-size:14px;background-color: transparent;
+}
+.row_style{
+    margin-top:66px;}
+#login{
+  font-weight:normal;
+}
